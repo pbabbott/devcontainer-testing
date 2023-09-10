@@ -1,18 +1,4 @@
 {
     "image": "mcr.microsoft.com/devcontainers/python:3",
-  
-    "customizations": {
-      "settings": {
-        "workbench.colorTheme": "GitHub Dark"
-      },
-      "vscode": {
-        "extensions": [
-            "streetsidesoftware.code-spell-checker",
-            "redhat.ansible",
-            "oderwat.indent-rainbow",
-            "tamasfe.even-better-toml"
-        ]
-      }
-    },
     "postCreateCommand": "pip3 install ansible"
 }
