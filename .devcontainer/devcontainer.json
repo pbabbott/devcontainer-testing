@@ -13,5 +13,6 @@
             "tamasfe.even-better-toml"
         ]
       }
-    }
+    },
+    "postCreateCommand": "pip3 install ansible"
 }
