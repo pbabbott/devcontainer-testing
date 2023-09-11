@@ -1,4 +1,16 @@
 {
-    "image": "python:3",
-    "postCreateCommand": "pip3 install ansible"
+    "build": { "dockerfile": "./Dockerfile" },
+    "customizations": {
+        "settings": {
+          "workbench.colorTheme": "GitHub Dark"
+        },
+        "vscode": {
+          "extensions": [
+              "streetsidesoftware.code-spell-checker",
+              "redhat.ansible",
+              "oderwat.indent-rainbow",
+              "tamasfe.even-better-toml"
+          ]
+        }
+    }
 }
